@@ -1,0 +1,16 @@
+Carousel Sources
+https://webflow.com/blog/carousel-slider-design-best-practices
+https://codepen.io/gromovich/pen/LRzVBa
+
+
+Footer Source
+https://codepen.io/cbracco/pen/zekgx
+
+Mailto Source
+https://www.tutorialspoint.com/html/html_email_links.htm
+
+Carousel Help
+Part 1
+https://www.youtube.com/watch?v=VYsVOamdB0g
+Part 2
+https://www.youtube.com/watch?v=gBzsE0oieio

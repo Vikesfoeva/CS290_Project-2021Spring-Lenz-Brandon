@@ -1,0 +1,37 @@
+<div id="user_submission">
+    <h1>
+        Submit a review for a game!
+    </h1>
+    <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php"
+        target="_blank">
+        <label>Board Game Name</label>
+        <input type="text" autocomplete="off" autofocus required placeholder="Board game name...">
+        <br>
+        How Likely are you to play again?
+        <br>
+        <input type="radio" name="rating" value=1 required>
+        <label>1 - Not At All</label>
+        <br>
+        <input type="radio" name="rating" value=2 required>
+        <label>2</label>
+        <br>
+        <input type="radio" name="rating" value=3 required>
+        <label>3</label>
+        <br>
+        <input type="radio" name="rating" value=4 required>
+        <label>4</label>
+        <br>
+        <input type="radio" name="rating" value=5 required>
+        <label>5 - Very likely</label>
+        <br>
+
+        <label>Tell us about your experience with the game</label>
+        <br>
+        <textarea name="review" rows="5" cols="30" required minlength="64" maxlength="1024"
+            placeholder="Your experience..."></textarea>
+        <br>
+        <input type="submit" name="submit" value="GET your submission out there" class="form-submission">
+        <br>
+        {{!-- <input type="submit" name="submit" value="POST your submission" class="form-submission"> --}}
+    </form>
+</div>
