@@ -44,6 +44,8 @@ rightButton.addEventListener('click', e => {
     carousel_track.style.transform = 'translateX(-' + moveAmount + ')';
 
     updateCarousel(currentSlide, nextSlide, currentBubble, nextBubble);
+    clearInterval(interval);
+    let interval = window.setInterval(autoScroll, 5000);
 });
 
 leftButton.addEventListener('click', e => {
@@ -68,6 +70,8 @@ leftButton.addEventListener('click', e => {
     carousel_track.style.transform = 'translateX(-' + moveAmount + ')';
 
     updateCarousel(currentSlide, nextSlide, currentBubble, nextBubble);
+    clearInterval(interval);
+    let interval = window.setInterval(autoScroll, 5000);
 });
 
 function updateCarousel(currentSlide, nextSlide, currentBubble, nextBubble) {

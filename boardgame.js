@@ -26,14 +26,29 @@ app.get('/reviews', function (req, res) {
   res.render('reviews', context);
 });
 
-app.get('/subpage2', function (req, res) {
+app.get('/choose', function (req, res) {
   let context = {};
-  res.render('subpage2', context);
+  res.render('choose', context);
 });
 
 app.get('/contribute', function (req, res) {
   let context = {};
-  res.render('contribute', context);
+  res.render('contribute', { context, layout: 'main' });
+});
+
+app.get('/reviews/dominion', function (req, res) {
+  let context = {};
+  res.render('games/dominion', { context, layout: 'reviews' });
+});
+
+app.get('/reviews/gameofthrones', function (req, res) {
+  let context = {};
+  res.render('games/gameofthrones', { context, layout: 'reviews' });
+});
+
+app.get('/reviews/terraformingmars', function (req, res) {
+  let context = {};
+  res.render('games/terraformingmars', { context, layout: 'reviews' });
 });
 
 app.use(function (req, res) {
