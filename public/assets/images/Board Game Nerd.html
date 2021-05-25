@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!-- saved from url=(0028)http://localhost:3000/choose -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Board Game Nerd</title>
+	<link rel="stylesheet" href="./Board Game Nerd_files/stylesheet.css" type="text/css">
+</head>
+
+<body>
+	<div id="header">
+		<ul id="menu-bar">
+			<li class="list-item"><a href="http://localhost:3000/">Home</a></li>
+			<li class="list-item"><a href="http://localhost:3000/reviews">Reviews</a></li>
+			<li class="list-item"><a href="http://localhost:3000/choose">Choose</a></li>
+			<li class="list-item"><a href="http://localhost:3000/contribute">Contribute</a></li>
+		</ul>
+	</div>
+	<div id="dummy-div">
+
+	</div>
+	<br>
+	<br>
+	<h1 id="choose_a_game">Choose a game to play!</h1>
+<table id="games_table">
+
+    <tbody><tr>
+        <th>
+            Name
+        </th>
+        <th>
+            # of Players
+        </th>
+        <th>
+            Playtime
+        </th>
+        <th>
+            BGN Rating
+        </th>
+    </tr>
+    <tr class="color_row">
+        <td class="game_title">Dominion</td>
+        <td class="game_data">
+
+        </td>
+        <td class="game_data">
+
+        </td>
+        <td class="game_data">
+
+        </td>
+    </tr>
+    <tr class="color_row">
+        <td class="game_title">Game of Thrones the Board Game</td>
+        <td class="game_data">
+
+        </td>
+        <td class="game_data">
+
+        </td>
+        <td class="game_data">
+
+        </td>
+    </tr>
+    <tr class="color_row">
+        <td class="game_title">Terraforming Mars</td>
+        <td class="game_data">
+
+        </td>
+        <td class="game_data">
+
+        </td>
+        <td class="game_data">
+
+        </td>
+    </tr>
+    <tr class="color_row">
+        <td class="game_title">Azul</td>
+        <td class="game_data">
+
+        </td>
+        <td class="game_data">
+
+        </td>
+        <td class="game_data">
+
+        </td>
+    </tr>
+    <tr class="color_row">
+        <td class="game_title">Gloomhaven</td>
+        <td class="game_data">
+
+        </td>
+        <td class="game_data">
+
+        </td>
+        <td class="game_data">
+
+        </td>
+    </tr>
+    <tr class="color_row">
+        <td class="game_title">Blood Rage</td>
+        <td class="game_data">
+
+        </td>
+        <td class="game_data">
+
+        </td>
+        <td class="game_data">
+
+        </td>
+    </tr>
+    <tr class="color_row">
+        <td class="game_title">Diplomacy</td>
+        <td class="game_data">
+
+        </td>
+        <td class="game_data">
+
+        </td>
+        <td class="game_data">
+
+        </td>
+    </tr>
+    <tr class="color_row">
+        <td class="game_title">Risk</td>
+        <td class="game_data">
+
+        </td>
+        <td class="game_data">
+
+        </td>
+        <td class="game_data">
+
+        </td>
+    </tr>
+    <tr class="color_row">
+        <td class="game_title">Principle Dilemma</td>
+        <td class="game_data">
+
+        </td>
+        <td class="game_data">
+
+        </td>
+        <td class="game_data">
+
+        </td>
+    </tr>
+</tbody></table>
+<button id="randomizer" class="randomizer">
+    Randomly pick a game!
+</button>
+
+<script>
+    let button = document.getElementById("randomizer");
+
+    let gamesList = document.getElementsByClassName("color_row");
+
+    button.addEventListener('click', function () {
+        window.alert("You've clicked me!");
+    });
+</script>
+	<br>
+	<footer>
+		<div id="foot">
+			<ul id="author-info">
+				<li class="footer-item"><a href="https://www.linkedin.com/in/brandonlenz-pmp/" target="_blank">Get in
+						Touch</a></li>
+				<li class="footer-item"><a href="https://oregonstate.edu/" target="_blank">Sponsored by Oregon
+						State</a></li>
+				<li class="footer-item"><a href="mailto:%20lenzb@oregonstate.edu?Subject=Hello,%20let%27s%20get%20in%20touch!" target-"_blank"="">lenzb@oregonstate.edu</a></li>
+				<li class="footer-item" id="downloadResume">
+					<a href="http://localhost:3000/assets/downloadables/Postbac_Resume_Brandon_Lenz_May_2021.pdf" download="">Résumé</a>
+				</li>
+			</ul>
+		</div>
+		<p id=" footer-text">
+			Brandon Lenz - CS290 - Section 400
+		</p>
+	</footer>
+
+
+</body></html>

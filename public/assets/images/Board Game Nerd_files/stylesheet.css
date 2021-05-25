@@ -64,10 +64,9 @@ li a {
 }
 
 /* Home Page */
-.title {
+#title {
     position: relative;
     text-align: center;
-    font-size: 35px;
 }
 
 #home-image {
@@ -84,8 +83,7 @@ li a {
 #user_submission {
     border: 2px solid black;
     width: 50%;
-    margin: auto;
-    position: relative;
+    margin: auto
 }
 
 input {
@@ -281,7 +279,7 @@ table {
     padding: 2px;
     background-color: black;
     position: relative;
-    width: 100%;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -338,100 +336,5 @@ td {
 }
 
 .randomizer:hover{
-    background-color: goldenrod;
-}
-
-#scrolling_table {
-    overflow: scroll;
-    overflow-x:hidden;
-    overflow-y: visible;
-    height: 600px;
-    position: relative;
-    width: 75%;
-    margin: 0 auto;
-}
-
-.reviewed_game a {
-    color: black;
-    font-size: 25px;
-    text-decoration: underline;
-}
-
-li ul li {
-    color: black;
-    font-size: 22px;
-}
-
-.how_to_vid_container {
-    position: relative;
-    margin: 0 auto;
-    text-align: center;
-    width: 50%;
-}
-
-.how_to_vid{
-    position: relative;
-    margin: 0 auto; 
-    width: 100%;
-    min-height: 500px
-}
-
-.creator {
-    margin: 5px;
-    padding: 5px;
-    font-size: 20px;
-    margin: 0 5px;
-    padding: 0 5px;
-}
-
-.where_buy {
-    margin: 5px;
-    padding: 5px;
-    font-size: 20px;
-    margin: 0 5px;
-    padding: 0 5px;
-}
-
-.bgn_review {
-    margin: 5px;
-    padding: 5px;
-    font-size: 20px;
-    margin: 0 5px;
-    padding: 0 5px;
-}
-div h2 {
-    margin: 5px 5px;
-    padding: 5px 5px;
-}
-
-.contribute_label {
-    font-size: 20px;
-    margin: 3px;
-    padding: 3px;
-}
-
-.written_review {
-    font-size: 20px;
-    margin: 3px;
-    padding: 3px;
-}
-
-.board_game_name {
-    font-size: 20px;
-    margin: 3px;
-    padding: 3px;
-}
-
-.contribute_form_submission {
-    font-size: 20px;
-    margin: 2px auto;
-    padding: 5px;
-    background-color: green;
-    border-radius: 15px;
-    font-weight: bold;
-    display: block;
-}
-
-.contribute_form_submission:hover {
     background-color: goldenrod;
 }

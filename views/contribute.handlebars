@@ -1,37 +1,56 @@
 <div id="user_submission">
-    <h1>
+    <h1 class="title">
         Submit a review for a game!
     </h1>
     <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php"
         target="_blank">
-        <label>Board Game Name</label>
-        <input type="text" autocomplete="off" autofocus required placeholder="Board game name...">
+        <label class="contribute_label">Board Game Name</label>
+        <input type="text" autocomplete="off" autofocus required placeholder="Board game name..."
+            class="board_game_name">
         <br>
-        How Likely are you to play again?
+        <br>
+        <label class="contribute_label">How Likely are you to play again?</label>
         <br>
         <input type="radio" name="rating" value=1 required>
-        <label>1 - Not At All</label>
+        <label class="contribute_label">1 - Not At All</label>
         <br>
         <input type="radio" name="rating" value=2 required>
-        <label>2</label>
+        <label class="contribute_label">2</label>
         <br>
         <input type="radio" name="rating" value=3 required>
-        <label>3</label>
+        <label class="contribute_label">3</label>
         <br>
         <input type="radio" name="rating" value=4 required>
-        <label>4</label>
+        <label class="contribute_label">4</label>
         <br>
         <input type="radio" name="rating" value=5 required>
-        <label>5 - Very likely</label>
+        <label class="contribute_label">5 - Very likely</label>
         <br>
-
-        <label>Tell us about your experience with the game</label>
+        <br>
+        <label class="contribute_label">How Complex Was the Game to Learn?</label>
+        <br>
+        <input type="radio" name="rating" value=1 required>
+        <label class="contribute_label">1 - Easy</label>
+        <br>
+        <input type="radio" name="rating" value=2 required>
+        <label class="contribute_label">2</label>
+        <br>
+        <input type="radio" name="rating" value=3 required>
+        <label class="contribute_label">3</label>
+        <br>
+        <input type="radio" name="rating" value=4 required>
+        <label class="contribute_label">4</label>
+        <br>
+        <input type="radio" name="rating" value=5 required>
+        <label class="contribute_label">5 - Difficult</label>
+        <br>
+        <br>
+        <label class="contribute_label">Tell us about your experience with the game</label>
         <br>
         <textarea name="review" rows="5" cols="30" required minlength="32" maxlength="1024"
-            placeholder="Your experience..."></textarea>
+            placeholder="Your experience..." class="written_review"></textarea>
         <br>
-        <input type="submit" name="submit" value="GET your submission out there" class="form-submission">
+        <input type="submit" name="submit" value="GET your submission out there" class="contribute_form_submission">
         <br>
-        {{!-- <input type="submit" name="submit" value="POST your submission" class="form-submission"> --}}
     </form>
 </div>
